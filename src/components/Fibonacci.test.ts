@@ -46,4 +46,20 @@ describe("Fibonacci Tests", () => {
       //Assert
       expect(actual).toBe(expected);
     });
+
+    //Sonja
+
+    it("when 5 return 1", () => {
+  
+      //Arrange
+      const input = 5;
+  
+      const expected = 1;
+
+      //Act
+      const actual: number = Fibonacci(input);
+      
+      //Assert
+      expect(actual).toBe(expected);
+    });
   });
