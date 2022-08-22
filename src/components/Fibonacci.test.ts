@@ -78,4 +78,20 @@ describe("Fibonacci Tests", () => {
       //Assert
       expect(actual).toBe(expected);
     });
+
+    //Nicolas
+
+    it("when 300 return 300", () => {
+  
+      //Arrange
+      const input = 300;
+  
+      const expected = 300;
+
+      //Act
+      const actual: number = Fibonacci(input);
+      
+      //Assert
+      expect(actual).toBe(expected);
+    });
   });
