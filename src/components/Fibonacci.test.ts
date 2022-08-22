@@ -30,4 +30,20 @@ describe("Fibonacci Tests", () => {
       //Assert
       expect(actual).toBe(expected);
     });
+
+    //Alyssa
+
+    it("when 6 return 4", () => {
+  
+      //Arrange
+      const input = 6;
+  
+      const expected = 8;
+
+      //Act
+      const actual: number = Fibonacci(input);
+      
+      //Assert
+      expect(actual).toBe(expected);
+    });
   });
