@@ -33,7 +33,7 @@ describe("Fibonacci Tests", () => {
 
     //Alyssa
 
-    it("when 6 return 4", () => {
+    it("when 7 return 4", () => {
   
       //Arrange
       const input = 6;
